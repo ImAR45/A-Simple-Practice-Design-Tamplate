@@ -1,0 +1,179 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family:  "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+ h2 {
+   font-family: "Montserrat";
+   font-weight: bold;
+   line-height: 1.5;
+   font-size: 3rem;
+ }
+
+ h3 {
+   font-family: "Montserrat";
+   font-weight: bold;
+   font-size: 1.5rem;
+ }
+
+
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Download button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features */
+#features {
+  padding: 7% 13%;
+  background-color: white;
+  position: relative;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+.features-i {
+  color: #ef8172;
+  margin: 5%;
+}
+
+.features-i:hover {
+  color: #ff4c68;
+}
+
+.features-box {
+  text-align: center;
+  padding: 3%;
+}
+
+/* testimonial */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 13%;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+ /* Pricing */
+
+ #pricing {
+   padding: 100px;
+   text-align: center;
+ }
+
+ .pricing-col {
+   padding: 3% 2%;
+ }
+
+ /* cta */
+
+
+ #cta {
+   background-color: #ff4c68;
+   text-align: center;
+   padding: 4% 15% 3%;
+ }
+
+ .cta-h3 {
+   color: #fff;
+   font-family: "Montserrat";
+   font-weight: 900;
+   font-size: 2.5rem;
+ }
+
+ /* footer */
+
+ #footer {
+   background-color: #fff;
+   text-align: center;
+   padding: 5% 0 5%;
+ }
+
+ .footer-i {
+   margin: 0 10px 10px 0;
+   padding-bottom: 1%;
+ }
+
+ .footer-p {
+   color: #8f8f8f;
+ }
+
+  /* media */
+
+@media (max-width: 1048px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  .container-fluid {
+    text-align: center;
+  }
+
+}
